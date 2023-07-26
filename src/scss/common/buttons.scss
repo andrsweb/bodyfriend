@@ -1,0 +1,31 @@
+.button {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	padding: 7px 37px;
+	color: #cdb6a7;
+	font-family: $ff;
+	font-size: 11px;
+	font-weight: $fw-black;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 2.8px;
+	line-height: normal;
+	border-style: none;
+	border-radius: 18px;
+	background-color: $black;
+	border: 1px solid $acent;
+	transition: opacity ease $tr;
+
+	img {
+		margin-right: 5px;
+	}
+
+	&:hover {
+		opacity: $op;
+	}
+}

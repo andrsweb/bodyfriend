@@ -31,6 +31,7 @@ $fw-regular	: 400;
 $fw-medium	: 500;
 $fw-semibold: 600;
 $fw-bold	: 700;
+$fw-black	: 800;
 
 // Line heights.
 $lh			: 1.5;
@@ -39,6 +40,11 @@ $lh-title	: 1.3;
 // Colors.
 $white	: #FFFFFF;
 $black	: #000000;
+$acent  : #cdb6a7;
+
+//gradient
+$grad: linear-gradient(89deg, rgba(232, 194, 95, 0.4) 0%, rgba(232, 194, 95, 0.4) 1%, rgba(199, 138, 32, 0.4) 30%, rgba(243, 226, 146, 0.4) 53%, rgba(198, 143, 43, 0.4) 76%, rgba(232, 194, 95, 0.4) 100%);
 
 // Others.
 $tr: 0.35s;
+$op: 0.7;

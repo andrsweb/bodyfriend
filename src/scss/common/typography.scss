@@ -38,11 +38,11 @@ h4, .h4 {
 
 a {
 	display: inline-block;
-	text-decoration: underline;
-	transition: color ease-out $tr;
+	text-decoration: none;
+	transition: opacity ease $tr;
 
 	&:hover {
-		text-decoration: none
+		opacity: $op;
 	}
 }
 

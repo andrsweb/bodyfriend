@@ -1,0 +1,99 @@
+.header {
+	padding: 44px 0;
+	background-color: $black;
+
+	&__logo {
+		margin-right: 47px;
+	}
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__feedback {
+		display: flex;
+		align-items: center;
+	}
+
+	&__contacts {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__busket {
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 35px;
+		height: 35px;
+		padding: 10px 0;
+		border: 1px solid $acent;
+		border-radius: 50%;
+		transition: opacity ease $tr;
+		margin-right: 11px;
+
+		&:hover {
+			opacity: $op;
+		}
+	}
+
+	&__email {
+		background-image: $grad;
+		background-clip: text;
+		color: $acent;
+		font-family: $ff;
+		font-size: 15px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 11.82px;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: 2.69px;
+		line-height: normal;
+		margin-bottom: 6px;
+	}
+
+	&__tel {
+		background-image: $grad;
+		background-clip: text;
+		color: $acent;
+		font-family: $acent;
+		font-size: 15px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 9.8px;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	&__nav_link {
+		background-image: $grad;
+		background-clip: text;
+		color: #cdb6a7;
+		font-family: $ff;
+		font-size: 11px;
+		font-weight: $fw-medium;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: 1.4px;
+		line-height: normal;
+		margin-right: 21px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
