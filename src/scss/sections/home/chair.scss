@@ -1,0 +1,198 @@
+.chair {
+	padding: 44px 0 101px;
+	position: relative;
+
+	&__title {
+		display: flex;
+		justify-content: center;
+		position: relative;
+	}
+
+	h2 {
+		display: inline-block;
+		color: $white;
+		font-family: $ff-title;
+		font-size: 37px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 38.25px;
+		text-align: right;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+
+		&.first__title {
+			position: absolute;
+			left: 0;
+			max-width: 250px;
+		}
+
+		&.last__title {
+			position: absolute;
+			max-width: 220px;
+			right: 0;
+		}
+	}
+
+	&__img_title {
+		height: 63px;
+		position: relative;
+
+		img {
+			max-width: 140%;
+		}
+	}
+
+	.medical {
+		position: absolute;
+		right: 0;
+		color: $acent;
+		font-family: $ff-title;
+		font-size: 50px;
+		font-weight: $fw-medium;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 9.39px;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__slider {
+		width: 400px;
+		margin-left: 120px;
+	}
+
+	&__info {
+		max-width: 500px;
+		margin-top: 130px;
+		border-top: 2px solid $acent;
+
+		&_items {
+			display: flex;
+		}
+
+		&_img {
+			img {
+				max-width: none;
+				height: 100%;
+			}
+		}
+
+		&_titles {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		&_title {
+			color: $acent;
+			font-family: $ff;
+			font-size: 20px;
+			font-weight: $fw-regular;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: 19.18px;
+			text-align: left;
+			text-transform: uppercase;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: normal;
+			margin-bottom: 30px;
+		}
+
+		&_text {
+			color: $acent;
+			font-family: $ff;
+			font-size: 15px;
+			font-weight: $fw-light;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: 12.34px;
+			text-align: left;
+			text-transform: uppercase;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: normal;
+		}
+
+		&_cost {
+			color: $acent;
+			font-family: $ff;
+			font-size: 43px;
+			font-weight: $fw-light;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: 17.15px;
+			text-align: left;
+			text-transform: uppercase;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: normal;
+			text-align: center;
+			border-top: 2px solid $acent;
+			border-bottom: 2px solid $acent;
+			padding: 20px 0;
+		}
+
+		&_buy,
+		&_click {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $acent;
+			font-family: $ff;
+			font-size: 12px;
+			font-weight: $fw-regular;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: 12px;
+			text-align: center;
+			text-transform: uppercase;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: normal;
+			cursor: pointer;
+			transition: opacity ease $tr;
+
+			&:hover {
+				opacity: $op;
+			}
+
+			img {
+				margin-right: 15px;
+			}
+		}
+
+		&_buy, &_click {
+			border-bottom: 2px solid $acent;
+			padding: 13px 0;
+		}
+
+		&_credit {
+			color: #585758;
+			font-family: $ff;
+			font-size: 10px;
+			font-weight: $fw-medium;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: 10.45px;
+			text-align: left;
+			text-transform: uppercase;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: normal;
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+}
