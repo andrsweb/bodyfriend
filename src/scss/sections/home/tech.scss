@@ -1,0 +1,72 @@
+.tech {
+	padding: 29px 0 60px;
+	background-image: url('../img/tech/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+	.container {
+		height: 100%;
+	}
+
+	h2 {
+		color: $white;
+		font-family: $ff;
+		font-size: 60px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		margin-bottom: 28px;
+	}
+
+	&__subtitle {
+		color: $white;
+		font-family: $ff;
+		font-size: 22px;
+		font-weight: $fw-light;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: center;
+		max-width: 950px;
+		margin: 0 auto;
+	}
+
+	&__wrapper {
+		width: 100%;
+		height: 100%;
+	}
+
+	&__texts {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-top: auto;
+		color: #66483e;
+		font-family: Roboto;
+		font-size: 27px;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: left;
+		text-transform: uppercase;
+		margin: 28vw auto 0 auto;
+		max-width: 800px;
+	}
+
+	&__left {
+		text-align: left;
+	}
+
+	&__right {
+		text-align: right;
+	}
+}

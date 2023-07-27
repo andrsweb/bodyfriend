@@ -165,12 +165,12 @@
 			animation: mod 5s forwards ease infinite alternate-reverse;
 
 				@keyframes mod {
-					from {
+					0% {
 						top: 45%;
 						transform: rotate3d(0, 0, 0, 0deg) translateY(-50%);
 					}
 
-					to {
+					100% {
 						transform: rotate3d(0, 1, 0, 360deg) translateY(-50%);
 						top: 55%;
 					}
