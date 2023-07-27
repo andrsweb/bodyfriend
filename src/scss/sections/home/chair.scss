@@ -65,6 +65,7 @@
 	&__items {
 		display: flex;
 		justify-content: space-between;
+		position: relative;
 	}
 
 	&__slider {
@@ -173,7 +174,8 @@
 			}
 		}
 
-		&_buy, &_click {
+		&_buy,
+		&_click {
 			border-bottom: 2px solid $acent;
 			padding: 13px 0;
 		}
@@ -193,6 +195,29 @@
 			line-height: normal;
 			text-align: center;
 			margin-top: 20px;
+		}
+	}
+
+	.flag {
+		display: flex;
+		align-items: center;
+		margin-top: 21px;
+
+		h4 {
+			color: $white;
+			font-family: $ff;
+			font-size: 16px;
+			font-weight: $fw-regular;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: normal;
+			text-align: left;
+			text-transform: uppercase;
+			margin-left: 20px;
+
+			span {
+				font-weight: $fw-black;
+			}
 		}
 	}
 }
