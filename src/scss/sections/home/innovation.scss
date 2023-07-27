@@ -1,0 +1,20 @@
+.innovation {
+	padding: 50px 0 35vw;
+	background-image: url('../img/innovation/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+	&__text {
+		color: #66483e;
+		font-family: $ff;
+		font-size: 15px;
+		font-weight: $fw-black;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: left;
+		max-width: 292px;
+		margin: 30% auto 0 auto;
+	}
+}
