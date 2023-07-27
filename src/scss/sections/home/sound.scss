@@ -1,0 +1,52 @@
+.sound {
+	padding: 50px 0 35vw;
+	background-image: url('../img/sound/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+	h2 {
+		color: $acent;
+		font-family: $ff;
+		font-size: 60px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	&__subtitle {
+		color: $acent;
+		font-family: $ff;
+		font-size: 27px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+		max-width: 950px;
+		margin: 0 auto 116px auto;
+		position: relative;
+	}
+
+	&__text {
+		color: #d2cdca;
+		font-family: $ff;
+		font-size: 15px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: right;
+		max-width: 446px;
+		position: absolute;
+		right: 0;
+		bottom: -39vw;
+	}
+}
