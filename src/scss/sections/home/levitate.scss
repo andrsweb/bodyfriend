@@ -32,6 +32,8 @@
 		text-align: center;
 		max-width: 950px;
 		margin: 0 auto 116px auto;
+		position: relative;
+		z-index: 1;
 	}
 
 	&__img {
