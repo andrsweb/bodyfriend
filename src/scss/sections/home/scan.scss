@@ -162,7 +162,7 @@
 			top: 50%;
 			transform: translateY(-50%);
 
-			animation: mod 5s forwards ease infinite alternate-reverse;
+			animation: mod 5s forwards linear infinite alternate-reverse;
 
 				@keyframes mod {
 					0% {
@@ -180,7 +180,7 @@
 				position: absolute;
 				top: 30%;
 				left: 15%;
-				animation: circle 3s forwards ease infinite alternate-reverse;
+				animation: circle 3s forwards linear infinite alternate-reverse;
 
 				@keyframes circle {
 					0% {

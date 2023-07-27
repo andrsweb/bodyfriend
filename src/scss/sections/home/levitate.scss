@@ -1,0 +1,60 @@
+.levitate {
+	padding: 50px 0 20px;
+	background-image: url('../img/levitate/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+	h2 {
+		color: $acent;
+		font-family: $ff;
+		font-size: 60px;
+		font-weight: $fw-regular;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		margin-bottom: 28px;
+	}
+
+	&__subtitle {
+		color: $white;
+		font-family: $ff;
+		font-size: 22px;
+		font-weight: $fw-light;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: center;
+		max-width: 950px;
+		margin: 0 auto 116px auto;
+	}
+
+	&__img {
+		position: relative;
+		display: flex;
+		justify-content: center;
+
+		.levitate__model {
+			position: absolute;
+			left: 50%;
+			top: -45%;
+			transform: translateX(-50%);
+			animation: lev 3s forwards linear infinite alternate-reverse;
+
+				@keyframes lev {
+					0% {
+						top: -40%;
+					}
+
+					100% {
+						top: -50%;
+					}
+				}
+		}
+	}
+}
